@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(248, 217, 234);
+    font-family: garamond;
+}
+
+.dress{
+    background-image: url(../imagens/tirando\ medidas.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.dress-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.dress-content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 2px 2px 2px #333 ;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
