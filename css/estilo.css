@@ -1,27 +1,56 @@
 body{
     background-color: #ddc3a0;
     font-family: garamond;
+    
 }
 
-.dress{
+.trim{
     background-image: url(../imagens/principal.png);
     height: 500px;
     background-position: right center;
     background-size: cover;
 }
 
-.dress-content{
+.trim-content{
     text-align: center;
     color: black;
     margin-top: 150px;
 }
 
-.dress-content h1{
+.trim-content h1{
     text-transform: uppercase;
     font-size: 36px;
     text-shadow: 1px 1px 1px rgb(122, 122, 122) ;
 }
 
+.trim nav ul{
+    text-align: right;
+    margin: 50px 50px 0 0;
+}
+
+.trim nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border: solid 1px white;
+    background:rgba(56, 46, 29, 0.3);
+
+}
+
+.trim nav a{
+    background: rgba(36, 29, 19, 0);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.trim nav a:hover{
+    background: rgba(red, green, blue, alpha);
+}
 main{
     width: 80%;
     margin: auto;
@@ -34,7 +63,7 @@ main{
 }
 
 .content-header{
-    border-bottom: solid 2px #b9a386;
+    border-bottom: solid 2px rgb(185, 163, 134);
     padding: 10px;
     background-color: #b9a386;
     color:black;
